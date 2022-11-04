@@ -10,7 +10,7 @@ fn main() {
 
     println!();
     println!("ou");
-    println!("BIN: {:b} OCT: {:o} HEX: {:x}", valor, valor, valor);
+    println!("BIN: {:b} OCT: {:o} HEX: {:X}", valor, valor, valor);
 
     println!();
     print!("Tecle <Enter> para encerrar...");
