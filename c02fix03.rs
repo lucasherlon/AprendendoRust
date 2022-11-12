@@ -13,8 +13,8 @@ fn main() {
 
     print!("Digite o número B: ");
     io::stdout().flush().unwrap();
-    io::stdin().read_line(&mut _b).expect("Erro de input: linha 10.");
-    let mut b: i32 = _b.trim().parse::<i32>().expect("Erro de conversão: linha 12.");
+    io::stdin().read_line(&mut _b).expect("Erro de input: linha 16.");
+    let mut b: i32 = _b.trim().parse::<i32>().expect("Erro de conversão: linha 17.");
 
     aux = a;
     a = b;
