@@ -14,7 +14,7 @@ fn main() {
         Err(_) => 0
     };
 
-    println!("O sucessor de {} é {}", valor, sucessor(valor));
+    println!("O sucessor de {} é {:?}", valor, sucessor(valor));
 
     println!();
     print!("Tecle <Enter> para sair...");
